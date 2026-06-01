@@ -1,0 +1,70 @@
+1. Faça um programa que gere uma lista contendo somente “Aprovados” ou 
+“reprovados”, de acordo com as médias da lista notas = [4, 7, 9, 5, 8], sabendo 
+que médias acima de 6,9 são aprovados, senão reprovados. 
+
+===========================================================
+
+2. Faça um programa que gere uma lista que dá 10% de desconto para quem custa 
+mais de 100, mas ignora itens que custam menos de 10. Considere a lista 
+precos = [10, 50, 150, 200, 5] como referência.
+
+===========================================================
+
+3. Em um sistema de e-commerce, não sabemos quantos itens o usuário vai 
+comprar. A lista é a estrutura ideal para o "Carrinho". Crie um programa que: 1 
+adicione elementos no carrinho, 2- tire elementos do carrinho, 3 – imprima 
+elementos do carrinho e saia do programa. (Veja como se usa o match, case)
+
+===========================================================
+
+4.  Imagine que você está monitorando a temperatura de sensores. Precisamos 
+armazenar as leituras para gerar um relatório de picos. Considere as leituras de 
+temperatura coletadas a cada hora: leituras_temp = [22.5, 23.0, 25.8, 24.2, 28.5, 
+21.9]. Gere um programa que mostre a maior, a menor e a média de 
+temperaturas.
+
+===========================================================
+
+5.  No desenvolvimento de um protótipo de Bengala Inteligente com sensores 
+ultrassônicos, é comum receber leituras inválidas (ruído). Considere uma lista 
+de distâncias capturadas em centímetros. Escreva um programa que receba 
+uma lista de leituras. O programa deve: 
+a. Remover leituras menores que 2 cm ou maiores que 400 cm (limites do 
+sensor HC-SR04). 
+b. Calcular a média das leituras válidas usando a fórmula: 
+c. Exibir a lista "limpa" e a média final.
+
+===========================================================
+
+6. O laboratório de prototipagem precisa controlar as cores de filamentos PETG e 
+ABS disponíveis para as cases de projetos IoT. Crie um sistema simples de 
+inventário que: 
+a. Inicie com uma lista de cores já disponíveis: ['Branco', 'Preto', 
+'Azul']. 
+b. Permita ao usuário digitar novas cores. 
+c. Antes de adicionar, verifique se a cor já existe na lista (evitar duplicatas). 
+d. Exiba a lista atualizada em ordem alfabética.
+
+===========================================================
+
+7. Em um evento como o CONEDU, a organização precisa processar a lista de 
+presença para emitir certificados. Você recebeu uma lista bruta com nomes de 
+alunos que passaram pelo sensor de RFID na entrada, mas alguns nomes estão 
+repetidos porque o aluno passou mais de uma vez. 
+Exemplo de entrada: ['Ana', 'Bruno', 'Ana', 'Carlos', 'Bruno', 
+'Daniel'] 
+a. Gere uma nova lista contendo apenas nomes únicos. 
+b. Conte quantos alunos distintos compareceram. 
+c. Verifique se um nome específico (digitado pelo professor) está na lista de 
+presença.
+
+===========================================================
+
+8. Monitorando a rede elétrica do rack de servidores, o sistema registrou 
+flutuações de tensão ao longo de 10 minutos. Dada uma lista de tensões, por 
+exemplo: [218, 220, 224, 230, 221, 190, 220, 235]. 
+a. Identifique e exiba a maior e a menor tensão registrada. 
+b. Crie uma nova lista chamada anomalias que contenha apenas as 
+tensões que estejam fora da faixa ideal (entre 210V e 230V). 
+c. Se a lista de anomalias não estiver vazia, exiba um alerta de 
+"Manutenção Necessária".
